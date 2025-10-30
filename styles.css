@@ -6,6 +6,9 @@ body {
 html {
   background: #cb3c14;
 }
+body {
+  background: #cb3c14;
+}
 
 /* design tokens */
 :root {
