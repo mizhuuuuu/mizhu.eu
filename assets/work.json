@@ -1,0 +1,21 @@
+[
+  {
+    "title": "SWAG",
+    "staticSrc": "assets/work/SWAG_STATIC.png",
+    "animateSrc": "assets/work/SWAG_ANIMATED.gif",
+    "videoId": "E4WlUXrJgy4"
+  },
+  {
+    "title": "RENTA",
+    "staticSrc": "assets/work/RENTA_STATIC.png",
+    "animateSrc": "assets/work/RENTA_ANIMATED.gif",
+    "videoId": "nu4UcB8c2bs"
+  },
+  {
+    "title": "NUSKY",
+    "staticSrc": "assets/work/NUSKY_STATIC.png",
+    "animateSrc": "assets/work/NUSKY_ANIMATED.gif",
+    "videoId": "E4WlUXrJgy4"
+  }
+]
+
