@@ -1,13 +1,25 @@
-html,
+html {
+  height: 100%;
+  margin: 0;
+  background: #cb3c14;
+}
 body {
   min-height: 100%;
   margin: 0;
-}
-html {
   background: #cb3c14;
+  display: flex;
+  flex-direction: column;
 }
-body {
-  background: #cb3c14;
+@supports (-webkit-touch-callout: none) {
+  /* Safari-specific fixes for mobile viewport */
+  html {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
 }
 
 /* design tokens */
@@ -21,18 +33,17 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 8px 12px;
+  padding: 6px 14px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   z-index: 2;
 }
 .burger {
-  font-size: 28px;
+  font-size: 32px;
   color: #fff;
   cursor: pointer;
   user-select: none;
-  font-family: var(--font-ui);
 }
 nav {
   position: fixed;
@@ -40,32 +51,48 @@ nav {
   right: 0;
   width: auto;
   height: auto;
-  padding: 40px 16px;
-  display: none;
+  padding: 36px 18px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-out;
 }
 #nav-toggle:checked ~ nav {
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 nav a {
   color: #fff;
+  font-size: 20px;
   text-decoration: none;
   display: block;
   margin: 12px 0;
   font-family: var(--font-ui);
   text-align: right;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
-h1 {
-  color: #fff;
-  font-family: var(--font-ui);
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.2;
-  margin: 40vh 0 0 16px;
+#nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transform: translateX(0);
+}
+#nav-toggle:checked ~ nav a:nth-child(1) {
+  transition-delay: 0.05s;
+}
+#nav-toggle:checked ~ nav a:nth-child(2) {
+  transition-delay: 0.1s;
+}
+#nav-toggle:checked ~ nav a:nth-child(3) {
+  transition-delay: 0.15s;
+}
+#nav-toggle:not(:checked) ~ nav a {
+  transition-delay: 0s;
 }
 
 /* top-centered homepage logo (in normal document flow) */
 main {
   padding: 10px;
+  flex: 1;
 }
 main img {
   width: 90vw;
@@ -76,6 +103,21 @@ main img {
 @media (min-width: 1024px) {
   main img {
     width: 33.333vw;
+  }
+}
+.wip {
+  text-align: center;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 40px auto;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .wip {
+    font-size: 48px;
+    margin: 60px auto;
   }
 }
 
@@ -110,16 +152,27 @@ main img {
 
 /* sticky footer bottom-center */
 .site-footer {
-  position: fixed;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  color: #000;
+  margin-top: auto;
+  margin-bottom: 10px;
+  color: #fff;
   font-family: var(--font-ui);
   font-size: 16px;
   font-weight: 600;
   opacity: 1;
   text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  .site-footer {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
 }
 
 /* contact page */
@@ -130,22 +183,19 @@ main img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  padding: 0 16px;
 }
 .contact-page p, a {
   font-family: var(--font-ui);
   font-size: 16px;
+  color: #fff;
   font-weight: 600;
   opacity: 1;
   text-align: center;
 }
 .contact-page a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
-.contact-page a.instagram svg {
-  width: 32px;
-  height: 32px;
-  display: block;
+.contact-page svg {
+  cursor: pointer;
 }
