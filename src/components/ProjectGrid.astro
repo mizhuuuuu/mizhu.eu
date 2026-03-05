@@ -228,28 +228,52 @@ const { projects } = Astro.props;
 	const modalCredits = document.getElementById('modal-credits')!;
 	const closeBtn = dialog.querySelector('.modal-close')!;
 
-	// Hover: show video preview
-	cards.forEach((card) => {
+	const isMobile = window.matchMedia('(max-width: 1024px)').matches;
+
+	function showPreview(card: HTMLButtonElement) {
 		const img = card.querySelector('img')!;
 		const video = card.querySelector('video')!;
+		img.style.display = 'none';
+		video.style.display = 'block';
+		video.play();
+	}
 
-		function showPreview() {
-			img.style.display = 'none';
-			video.style.display = 'block';
-			video.play();
-		}
+	function hidePreview(card: HTMLButtonElement) {
+		const img = card.querySelector('img')!;
+		const video = card.querySelector('video')!;
+		video.pause();
+		video.currentTime = 0;
+		video.style.display = 'none';
+		img.style.display = 'block';
+	}
 
-		function hidePreview() {
-			video.pause();
-			video.currentTime = 0;
-			video.style.display = 'none';
-			img.style.display = 'block';
-		}
+	// Desktop: hover preview
+	if (!isMobile) {
+		cards.forEach((card) => {
+			card.addEventListener('mouseenter', () => showPreview(card));
+			card.addEventListener('mouseleave', () => hidePreview(card));
+			card.addEventListener('focus', () => showPreview(card));
+			card.addEventListener('blur', () => hidePreview(card));
+		});
+	}
 
-		card.addEventListener('mouseenter', showPreview);
-		card.addEventListener('mouseleave', hidePreview);
-		card.addEventListener('focus', showPreview);
-		card.addEventListener('blur', hidePreview);
+	// Mobile: auto-play preview of centered card
+	if (isMobile) {
+		const observer = new IntersectionObserver((entries) => {
+			for (const entry of entries) {
+				const card = entry.target as HTMLButtonElement;
+				if (entry.isIntersecting) {
+					showPreview(card);
+				} else {
+					hidePreview(card);
+				}
+			}
+		}, { threshold: 1.0 });
+
+		cards.forEach((card) => observer.observe(card));
+	}
+
+	cards.forEach((card) => {
 
 		// Click: open modal
 		card.addEventListener('click', () => {
