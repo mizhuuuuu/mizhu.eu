@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeaderLogo from "../components/HeaderLogo.astro";
+import ProjectGrid from "../components/ProjectGrid.astro";
+import headerLogo from "../assets/directed-by-mizhu.png";
+import projects from "../data/directed-by-projects.json";
+---
+
+<Layout title="MIZHU – DIRECTOR & VFX ARTIST" description="Director & VFX artist based in Paris (France)">
+	<h1 class="sr-only">MIZHU - Director & VFX artist based in Paris (France)</h1>
+	<HeaderLogo src={headerLogo.src} alt="Directed by MIZHU" />
+	<ProjectGrid projects={projects} />
+</Layout>

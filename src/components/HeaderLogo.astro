@@ -1,0 +1,26 @@
+---
+interface Props {
+	src: string;
+	alt: string;
+}
+
+const { src, alt } = Astro.props;
+---
+
+<img src={src} alt={alt} class="header-logo" />
+
+<style>
+	.header-logo {
+		width: 90vw;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 1rem;
+	}
+
+	@media (min-width: 1024px) {
+		.header-logo {
+			width: 33.333vw;
+		}
+	}
+</style>

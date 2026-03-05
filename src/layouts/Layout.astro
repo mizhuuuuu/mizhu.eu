@@ -1,0 +1,72 @@
+---
+import "../styles/global.css";
+import BurgerMenu from "../components/BurgerMenu.astro";
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonicalURL.href} />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonicalURL.href} />
+		<meta property="og:image" content={`${Astro.site}og-image.png`} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={`${Astro.site}og-image.png`} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<BurgerMenu />
+		<main>
+			<slot />
+		</main>
+		<footer>&copy;{new Date().getFullYear()} MIZHU. All rights reserved.</footer>
+	</body>
+</html>
+
+<style>
+	body {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		text-align: center;
+		margin-top: auto;
+		padding-top: 1rem;
+		font-size: 15px;
+		font-weight: 400;
+	}
+</style>

@@ -1,0 +1,243 @@
+[
+  {
+    "slug": "001",
+    "title": "LIFE IS HARD - SWAG PLANET",
+    "year": 2026,
+    "thumbnail": "/directed-by/001.webp",
+    "preview": "/directed-by/001.mp4",
+    "videoUrl": "https://www.youtube.com/embed/R5sdJMSgfqE",
+    "credits": [
+      {
+        "role": "Directed by",
+        "names": [
+          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+        ]
+      },
+      { "role": "Produced by", "names": [{ "name": "Life is Hard" }] },
+      {
+        "role": "Cast",
+        "names": [
+          { "name": "Life is Hard" },
+          { "name": "Mikaela Brennan" },
+          { "name": "Nana Suzuki" },
+          { "name": "Gabriella Brookler" }
+        ]
+      },
+      {
+        "role": "EP",
+        "names": [{ "name": "Angèle Godbert" }, { "name": "Laetitia Prioux" }]
+      },
+      { "role": "1st AD", "names": [{ "name": "Houssam Bakraoui" }] },
+      { "role": "2nd AD", "names": [{ "name": "Simon Cugniet" }] },
+      { "role": "DOP", "names": [{ "name": "Théodore Pejout" }] },
+      { "role": "1st AC", "names": [{ "name": "Louise Haeussler" }] },
+      { "role": "2nd AC", "names": [{ "name": "Théo Fabulet" }] },
+      { "role": "Camera B", "names": [{ "name": "Gabriel Bataller" }] },
+      { "role": "Set Photographer", "names": [{ "name": "Jade Loncle" }] },
+      {
+        "role": "Gaffer",
+        "names": [{ "name": "Hugo Rotivel" }, { "name": "Dan Andric" }]
+      },
+      {
+        "role": "Circus Lighting Technician",
+        "names": [{ "name": "Angelo Micheletty" }]
+      },
+      { "role": "Unit Manager", "names": [{ "name": "Emma Daveau" }] },
+      {
+        "role": "Unit Manager Assistants",
+        "names": [
+          { "name": "Maxime Bekangba" },
+          { "name": "Maxime Sabathé" },
+          { "name": "Andréas Sabathé" },
+          { "name": "Théodore Lardy" }
+        ]
+      },
+      { "role": "Artist Stylist", "names": [{ "name": "Carla Vernagallo" }] },
+      {
+        "role": "Post Production House",
+        "names": [
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
+        ]
+      },
+      { "role": "Editor", "names": [{ "name": "Eugène Signoret" }] },
+      {
+        "role": "VFX",
+        "names": [
+          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+        ]
+      },
+      { "role": "3D Object", "names": [{ "name": "Titouan Fourreau" }] },
+      {
+        "role": "Graphism",
+        "names": [{ "name": "Coline Cayzac" }, { "name": "Lucas Gouet" }]
+      },
+      {
+        "role": "Sound Design",
+        "names": [
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
+        ]
+      },
+      {
+        "role": "Extras",
+        "names": [
+          { "name": "Theo Arbonnier" },
+          { "name": "Joy Amessoudji" },
+          { "name": "Montana Aulas" },
+          { "name": "Margot Barranco" },
+          { "name": "Barbe Basin-Marécat" },
+          { "name": "Julien Belle" },
+          { "name": "Victor Belloir" },
+          { "name": "Dan Biezunski" },
+          { "name": "Zeyn Berkane" },
+          { "name": "Elise Bonnelle" },
+          { "name": "Thomas Bourassin" },
+          { "name": "Mikaela Brennan" },
+          { "name": "Gabriella Brookler" },
+          { "name": "Emilie Cauneau" },
+          { "name": "Coline Cayzac" },
+          { "name": "Julie Carvalho" },
+          { "name": "Arthur Chaumay" },
+          { "name": "Jocelyn Colman" },
+          { "name": "Hippolyte Court" },
+          { "name": "Eleonore Dartigues" },
+          { "name": "Alexis Diebold" },
+          { "name": "Maëva Dillou" },
+          { "name": "Alix Dournel" },
+          { "name": "Roscoe Ellis" },
+          { "name": "Félix Enault-Lorne" },
+          { "name": "Aminelle Gill" },
+          { "name": "Augustin Jansem" },
+          { "name": "Melchior Leroux" },
+          { "name": "Annika Lovgren" },
+          { "name": "Romane Mallet" },
+          { "name": "Sarah Mangel" },
+          { "name": "Leah Morera" },
+          { "name": "Sarah Mullen" },
+          { "name": "Vanessa Nguyen" },
+          { "name": "Gaël Philippe" },
+          { "name": "Pierre LG" },
+          { "name": "Jules Pouget" },
+          { "name": "Sarah Pouvreau" },
+          { "name": "Isabel Raggio" },
+          { "name": "Marie Sanchez Bueno" },
+          { "name": "Seanna Scott" },
+          { "name": "Eugène Signoret" },
+          { "name": "Augustin Simon" },
+          { "name": "Luna Somville" },
+          { "name": "Nana Suzuki" },
+          { "name": "Lou Taillandier" },
+          { "name": "Omoy Vianney" },
+          { "name": "Vincent Vergne" },
+          { "name": "Gabin Villemur" },
+          { "name": "Maé Bragnier" }
+        ]
+      },
+      {
+        "role": "Special thanks",
+        "names": [
+          { "name": "Cirque Micheletty & Angelo" },
+          { "name": "Samuel Renollet, RVZ's Camera Service" },
+          { "name": "Muto Events" },
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "002",
+    "title": "32 - RENTA",
+    "year": 2024,
+    "thumbnail": "/directed-by/002.webp",
+    "preview": "/directed-by/002.mp4",
+    "videoUrl": "https://www.youtube.com/embed/nu4UcB8c2bs",
+    "credits": [
+      {
+        "role": "Directed by",
+        "names": [
+          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          }
+        ]
+      },
+      {
+        "role": "Post produced",
+        "names": [
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
+        ]
+      },
+      {
+        "role": "Editor",
+        "names": [
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
+        ]
+      },
+      {
+        "role": "VFX",
+        "names": [
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+        ]
+      },
+      {
+        "role": "Sound design",
+        "names": [
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
+        ]
+      },
+      {
+        "role": "Typography",
+        "names": [
+          {
+            "name": "@1804fbglp",
+            "url": "https://www.instagram.com/1804fbglp/"
+          }
+        ]
+      },
+      {
+        "role": "3D typography",
+        "names": [
+          { "name": "@pela.xyz", "url": "https://www.instagram.com/pela.xyz/" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "003",
+    "title": "NUSKY - UNRELEASED",
+    "year": 2025,
+    "thumbnail": "/directed-by/003.webp",
+    "preview": "/directed-by/003.mp4",
+    "videoUrl": null,
+    "credits": [
+      {
+        "role": "Directed by",
+        "names": [
+          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+        ]
+      }
+    ]
+  }
+]
