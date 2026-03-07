@@ -2,12 +2,14 @@
 interface Props {
 	src: string;
 	alt: string;
+	width: number;
+	height: number;
 }
 
-const { src, alt } = Astro.props;
+const { src, alt, width, height } = Astro.props;
 ---
 
-<img src={src} alt={alt} class="header-logo" />
+<img src={src} alt={alt} width={width} height={height} class="header-logo" />
 
 <style>
 	.header-logo {
