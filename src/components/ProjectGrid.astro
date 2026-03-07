@@ -274,14 +274,11 @@ const { projects } = Astro.props;
 
 	// Mobile: auto-play preview of centered card
 	if (isMobile) {
-		const timers = new Map<HTMLButtonElement, ReturnType<typeof setTimeout>>();
-
 		const observer = new IntersectionObserver((entries) => {
 			for (const entry of entries) {
 				const card = entry.target as HTMLButtonElement;
-				clearTimeout(timers.get(card));
 				if (entry.isIntersecting) {
-					timers.set(card, setTimeout(() => showPreview(card), 300));
+					showPreview(card);
 				} else {
 					hidePreview(card);
 				}
