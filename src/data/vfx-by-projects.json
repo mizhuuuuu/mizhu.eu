@@ -197,29 +197,11 @@
         ]
       },
       {
-        "role": "Post-production",
-        "names": [
-          {
-            "name": "@paume.p",
-            "url": "https://www.instagram.com/paume.p/"
-          }
-        ]
-      },
-      {
-        "role": "Post producer",
-        "names": [
-          {
-            "name": "@madknd",
-            "url": "https://www.instagram.com/madknd/"
-          }
-        ]
-      },
-      {
         "role": "Edit",
         "names": [
           {
-            "name": "@eugenesignoret",
-            "url": "https://www.instagram.com/eugenesignoret/"
+            "name": "@morelifeldn",
+            "url": "https://www.instagram.com/morelifeldn/"
           }
         ]
       },
@@ -227,17 +209,20 @@
         "role": "VFX",
         "names": [
           {
-            "name": "@niallproctor"
+            "name": "@niallproctor",
+            "url": "https://www.instagram.com/niallproctor/"
           },
           {
             "name": "@mizh_u",
             "url": "https://www.instagram.com/mizh_u/"
           },
           {
-            "name": "@sxftwre"
+            "name": "@sxftwre",
+            "url": "https://www.instagram.com/sxftwre/"
           },
           {
-            "name": "@rohan.dil"
+            "name": "@rohan.dil",
+            "url": "https://www.instagram.com/rohan.dil/"
           }
         ]
       },
@@ -245,10 +230,12 @@
         "role": "3D",
         "names": [
           {
-            "name": "@rohan.dil"
+            "name": "@rohan.dil",
+            "url": "https://www.instagram.com/rohan.dil/"
           },
           {
-            "name": "@sxftwre"
+            "name": "@sxftwre",
+            "url": "https://www.instagram.com/sxftwre/"
           }
         ]
       }
