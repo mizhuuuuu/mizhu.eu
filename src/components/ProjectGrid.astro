@@ -197,16 +197,13 @@ const { projects } = Astro.props;
 	}
 
 	.credits {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0 0.5rem;
 		padding: 0 1.25rem 1.25rem;
 		font-size: 0.85rem;
 		line-height: 1.8;
 	}
 
-	.credits :global(.label) {
-		text-align: right;
+	.credits :global(p) {
+		margin: 0;
 	}
 
 	.credits :global(a) {
@@ -328,21 +325,16 @@ const { projects } = Astro.props;
 			modalCredits.innerHTML = '';
 			modalCredits.style.display = credits.length ? '' : 'none';
 			for (const credit of credits) {
-				const label = document.createElement('span');
-				label.className = 'label';
-				label.textContent = `${credit.role}:`;
-
-				const value = document.createElement('span');
-				value.innerHTML = credit.names
+				const p = document.createElement('p');
+				const names = credit.names
 					.map((n: { name: string; url?: string }) =>
 						n.url
 							? `<a href="${n.url}" target="_blank" rel="noopener noreferrer">${n.name}</a>`
 							: n.name
 					)
-					.join(' ');
-
-				modalCredits.appendChild(label);
-				modalCredits.appendChild(value);
+					.join(', ');
+				p.innerHTML = `${credit.role.toUpperCase()}: ${names}`;
+				modalCredits.appendChild(p);
 			}
 
 			dialog.showModal();
