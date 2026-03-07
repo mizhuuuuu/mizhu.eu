@@ -1,7 +1,7 @@
 [
   {
     "slug": "001",
-    "title": "LIFE IS HARD - SWAG PLANET",
+    "title": "Life is Hard - Swag Planet",
     "year": 2026,
     "thumbnail": "/directed-by/001.webp",
     "preview": "/directed-by/001.mp4",
@@ -173,11 +173,11 @@
   },
   {
     "slug": "003",
-    "title": "09PEAS - FAIS BIEN OU FAIS AP",
+    "title": "09PEAS - Fais bien ou fais ap",
     "year": 2023,
     "thumbnail": "/directed-by/003.webp",
     "preview": "/directed-by/003.mp4",
-    "videoUrl": "https://www.youtube.com/embed/L2c9_Nc8hmA?si=IIfUtql1Wybmkpm9",
+    "videoUrl": "https://www.youtube.com/embed/L2c9_Nc8hmA",
     "credits": [
       {
         "role": "Directed by",
@@ -196,11 +196,11 @@
   },
   {
     "slug": "004",
-    "title": "SAD MADONA - CRAVING",
+    "title": "Sad Madona - Craving",
     "year": 2023,
     "thumbnail": "/directed-by/004.webp",
     "preview": "/directed-by/004.mp4",
-    "videoUrl": "https://www.youtube.com/embed/4BmnOn6Us9g?si=cfX4XbCXsQOVVW4m",
+    "videoUrl": "https://www.youtube.com/embed/4BmnOn6Us9g",
     "credits": [
       {
         "role": "Directed by",
@@ -212,7 +212,7 @@
   },
   {
     "slug": "005",
-    "title": "NEOP0P - CHROME CASTLE",
+    "title": "Neop0p - Chrome Castle",
     "year": 2022,
     "thumbnail": "/directed-by/005.webp",
     "preview": "/directed-by/005.mp4",
@@ -229,11 +229,11 @@
   },
   {
     "slug": "006",
-    "title": "LOVARRAN - LAPUTA",
+    "title": "Lovarran - Laputa",
     "year": 2021,
     "thumbnail": "/directed-by/006.webp",
     "preview": "/directed-by/006.mp4",
-    "videoUrl": "https://www.youtube.com/embed/0qmUquya--A?si=c9wARHQryzP2T2lW",
+    "videoUrl": "https://www.youtube.com/embed/0qmUquya--A",
     "credits": [
       {
         "role": "Directed by",
