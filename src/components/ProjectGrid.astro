@@ -259,16 +259,19 @@ const { projects } = Astro.props;
 
 	// Mobile: auto-play preview of centered card
 	if (isMobile) {
+		const timers = new Map<HTMLButtonElement, ReturnType<typeof setTimeout>>();
+
 		const observer = new IntersectionObserver((entries) => {
 			for (const entry of entries) {
 				const card = entry.target as HTMLButtonElement;
+				clearTimeout(timers.get(card));
 				if (entry.isIntersecting) {
-					showPreview(card);
+					timers.set(card, setTimeout(() => showPreview(card), 300));
 				} else {
 					hidePreview(card);
 				}
 			}
-		}, { threshold: 1.0 });
+		}, { rootMargin: '-40% 0px -40% 0px', threshold: 0 });
 
 		cards.forEach((card) => observer.observe(card));
 	}
