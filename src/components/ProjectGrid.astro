@@ -229,18 +229,33 @@ const { projects } = Astro.props;
 	const closeBtn = dialog.querySelector('.modal-close')!;
 
 	const isMobile = window.matchMedia('(max-width: 1024px)').matches;
+	const pendingListeners = new Map<HTMLButtonElement, () => void>();
 
 	function showPreview(card: HTMLButtonElement) {
 		const img = card.querySelector('img')!;
 		const video = card.querySelector('video')!;
-		img.style.display = 'none';
-		video.style.display = 'block';
+
+		const onCanPlay = () => {
+			pendingListeners.delete(card);
+			img.style.display = 'none';
+			video.style.display = 'block';
+		};
+
+		pendingListeners.set(card, onCanPlay);
+		video.addEventListener('canplay', onCanPlay, { once: true });
 		video.play();
 	}
 
 	function hidePreview(card: HTMLButtonElement) {
 		const img = card.querySelector('img')!;
 		const video = card.querySelector('video')!;
+
+		const pending = pendingListeners.get(card);
+		if (pending) {
+			video.removeEventListener('canplay', pending);
+			pendingListeners.delete(card);
+		}
+
 		video.pause();
 		video.currentTime = 0;
 		video.style.display = 'none';
