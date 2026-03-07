@@ -1,6 +1,5 @@
 [
   {
-    "slug": "001",
     "title": "Life is Hard - Swag Planet",
     "year": 2026,
     "thumbnail": "/directed-by/life-is-hard-swag-planet.webp",
@@ -10,97 +9,249 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Produced by",
         "names": [
-          { "name": "@lifeishard.bb", "url": "https://www.instagram.com/lifeishard.bb/" }
+          {
+            "name": "@lifeishard.bb",
+            "url": "https://www.instagram.com/lifeishard.bb/"
+          }
         ]
       },
       {
         "role": "Cast",
         "names": [
-          { "name": "@lifeishard.bb", "url": "https://www.instagram.com/lifeishard.bb/" },
-          { "name": "@mikaelaception", "url": "https://www.instagram.com/mikaelaception/" },
-          { "name": "@nana7_7s", "url": "https://www.instagram.com/nana7_7s/" },
-          { "name": "@alone.with.pluto", "url": "https://www.instagram.com/alone.with.pluto/" }
+          {
+            "name": "@lifeishard.bb",
+            "url": "https://www.instagram.com/lifeishard.bb/"
+          },
+          {
+            "name": "@mikaelaception",
+            "url": "https://www.instagram.com/mikaelaception/"
+          },
+          {
+            "name": "@nana7_7s",
+            "url": "https://www.instagram.com/nana7_7s/"
+          },
+          {
+            "name": "@alone.with.pluto",
+            "url": "https://www.instagram.com/alone.with.pluto/"
+          }
         ]
       },
       {
         "role": "EP",
         "names": [
-          { "name": "@angetmsini", "url": "https://www.instagram.com/angetmsini/" },
-          { "name": "@itslaetitia.prx", "url": "https://www.instagram.com/itslaetitia.prx/" }
+          {
+            "name": "@angetmsini",
+            "url": "https://www.instagram.com/angetmsini/"
+          },
+          {
+            "name": "@itslaetitia.prx",
+            "url": "https://www.instagram.com/itslaetitia.prx/"
+          }
         ]
       },
-      { "role": "1st AD", "names": [{ "name": "@pauzklop", "url": "https://www.instagram.com/pauzklop/" }] },
-      { "role": "2nd AD", "names": [{ "name": "@simoncgnt_", "url": "https://www.instagram.com/simoncgnt_/" }] },
-      { "role": "DOP", "names": [{ "name": "@theodorepejout", "url": "https://www.instagram.com/theodorepejout/" }] },
-      { "role": "1st AC", "names": [{ "name": "@louisehsslr_", "url": "https://www.instagram.com/louisehsslr_/" }] },
-      { "role": "2nd AC", "names": [{ "name": "@theofabulet", "url": "https://www.instagram.com/theofabulet/" }] },
-      { "role": "Camera B", "names": [{ "name": "@gabriel.bataller", "url": "https://www.instagram.com/gabriel.bataller/" }] },
-      { "role": "Set Photographer", "names": [{ "name": "@donerjad", "url": "https://www.instagram.com/donerjad/" }] },
+      {
+        "role": "1st AD",
+        "names": [
+          {
+            "name": "@pauzklop",
+            "url": "https://www.instagram.com/pauzklop/"
+          }
+        ]
+      },
+      {
+        "role": "2nd AD",
+        "names": [
+          {
+            "name": "@simoncgnt_",
+            "url": "https://www.instagram.com/simoncgnt_/"
+          }
+        ]
+      },
+      {
+        "role": "DOP",
+        "names": [
+          {
+            "name": "@theodorepejout",
+            "url": "https://www.instagram.com/theodorepejout/"
+          }
+        ]
+      },
+      {
+        "role": "1st AC",
+        "names": [
+          {
+            "name": "@louisehsslr_",
+            "url": "https://www.instagram.com/louisehsslr_/"
+          }
+        ]
+      },
+      {
+        "role": "2nd AC",
+        "names": [
+          {
+            "name": "@theofabulet",
+            "url": "https://www.instagram.com/theofabulet/"
+          }
+        ]
+      },
+      {
+        "role": "Camera B",
+        "names": [
+          {
+            "name": "@gabriel.bataller",
+            "url": "https://www.instagram.com/gabriel.bataller/"
+          }
+        ]
+      },
+      {
+        "role": "Set Photographer",
+        "names": [
+          {
+            "name": "@donerjad",
+            "url": "https://www.instagram.com/donerjad/"
+          }
+        ]
+      },
       {
         "role": "Gaffer",
         "names": [
-          { "name": "@hugorotivel", "url": "https://www.instagram.com/hugorotivel/" },
-          { "name": "@dan.andric_dop", "url": "https://www.instagram.com/dan.andric_dop/" }
+          {
+            "name": "@hugorotivel",
+            "url": "https://www.instagram.com/hugorotivel/"
+          },
+          {
+            "name": "@dan.andric_dop",
+            "url": "https://www.instagram.com/dan.andric_dop/"
+          }
         ]
       },
       {
         "role": "Circus Lighting Technician",
-        "names": [{ "name": "@amicheletty", "url": "https://www.instagram.com/amicheletty/" }]
+        "names": [
+          {
+            "name": "@amicheletty",
+            "url": "https://www.instagram.com/amicheletty/"
+          }
+        ]
       },
-      { "role": "Unit Manager", "names": [{ "name": "@emmadaveau", "url": "https://www.instagram.com/emmadaveau/" }] },
+      {
+        "role": "Unit Manager",
+        "names": [
+          {
+            "name": "@emmadaveau",
+            "url": "https://www.instagram.com/emmadaveau/"
+          }
+        ]
+      },
       {
         "role": "Unit Manager Assistants",
         "names": [
-          { "name": "@__kotro", "url": "https://www.instagram.com/__kotro/" },
-          { "name": "@arrtis.sbth", "url": "https://www.instagram.com/arrtis.sbth/" },
-          { "name": "@andreasabathe", "url": "https://www.instagram.com/andreasabathe/" },
-          { "name": "@theodorelardy", "url": "https://www.instagram.com/theodorelardy/" }
+          {
+            "name": "@__kotro",
+            "url": "https://www.instagram.com/__kotro/"
+          },
+          {
+            "name": "@arrtis.sbth",
+            "url": "https://www.instagram.com/arrtis.sbth/"
+          },
+          {
+            "name": "@andreasabathe",
+            "url": "https://www.instagram.com/andreasabathe/"
+          },
+          {
+            "name": "@theodorelardy",
+            "url": "https://www.instagram.com/theodorelardy/"
+          }
         ]
       },
-      { "role": "Artist Stylist", "names": [{ "name": "@dressuplikeangel", "url": "https://www.instagram.com/dressuplikeangel/" }] },
+      {
+        "role": "Artist Stylist",
+        "names": [
+          {
+            "name": "@dressuplikeangel",
+            "url": "https://www.instagram.com/dressuplikeangel/"
+          }
+        ]
+      },
       {
         "role": "Post Production House",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
-      { "role": "Editor", "names": [{ "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }] },
+      {
+        "role": "Editor",
+        "names": [
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
+        ]
+      },
       {
         "role": "VFX",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
-      { "role": "3D Object", "names": [{ "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }] },
+      {
+        "role": "3D Object",
+        "names": [
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
+        ]
+      },
       {
         "role": "Graphic Design",
         "names": [
-          { "name": "@colinecayzac", "url": "https://www.instagram.com/colinecayzac/" },
-          { "name": "@lucasgouet", "url": "https://www.instagram.com/lucasgouet/" }
+          {
+            "name": "@colinecayzac",
+            "url": "https://www.instagram.com/colinecayzac/"
+          },
+          {
+            "name": "@lucasgouet",
+            "url": "https://www.instagram.com/lucasgouet/"
+          }
         ]
       },
       {
         "role": "Sound Design",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color Grading",
         "names": [
-          { "name": "@theodorepejout", "url": "https://www.instagram.com/theodorepejout/" }
+          {
+            "name": "@theodorepejout",
+            "url": "https://www.instagram.com/theodorepejout/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "002",
     "title": "32 - RENTA",
     "year": 2024,
     "thumbnail": "/directed-by/32-renta.webp",
@@ -110,7 +261,10 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
           {
             "name": "@melkiaur",
             "url": "https://www.instagram.com/melkiaur/"
@@ -142,7 +296,10 @@
             "name": "@melkiaur",
             "url": "https://www.instagram.com/melkiaur/"
           },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
@@ -166,13 +323,15 @@
       {
         "role": "3D typography",
         "names": [
-          { "name": "@pela.xyz", "url": "https://www.instagram.com/pela.xyz/" }
+          {
+            "name": "@pela.xyz",
+            "url": "https://www.instagram.com/pela.xyz/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "003",
     "title": "09PEAS - Fais bien ou fais ap",
     "year": 2023,
     "thumbnail": "/directed-by/09peas-fais-bien-ou-fais-ap.webp",
@@ -182,20 +341,28 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@lazyed_zzz", "url": "https://www.instagram.com/lazyed_zzz/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@lazyed_zzz",
+            "url": "https://www.instagram.com/lazyed_zzz/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Typography",
         "names": [
-          { "name": "@pela.xyz", "url": "https://www.instagram.com/pela.xyz/" }
+          {
+            "name": "@pela.xyz",
+            "url": "https://www.instagram.com/pela.xyz/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "004",
     "title": "Sad Madona - Craving",
     "year": 2023,
     "thumbnail": "/directed-by/sad-madona-craving.webp",
@@ -205,13 +372,15 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "005",
     "title": "Neop0p - Chrome Castle",
     "year": 2022,
     "thumbnail": "/directed-by/neop0p-chrome-castle.webp",
@@ -221,14 +390,19 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@lazyed_zzz", "url": "https://www.instagram.com/lazyed_zzz/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@lazyed_zzz",
+            "url": "https://www.instagram.com/lazyed_zzz/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "006",
     "title": "Lovarran - Laputa",
     "year": 2021,
     "thumbnail": "/directed-by/lovarran-laputa.webp",
@@ -238,8 +412,14 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@lazyed_zzz", "url": "https://www.instagram.com/lazyed_zzz/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@lazyed_zzz",
+            "url": "https://www.instagram.com/lazyed_zzz/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       }
     ]

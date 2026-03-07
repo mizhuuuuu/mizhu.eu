@@ -1,205 +1,356 @@
 [
   {
-    "slug": "001",
     "title": "A$AP Rocky - pray4dagang",
     "year": 2025,
     "thumbnail": "/vfx/asap-rocky-pray4dagang.webp",
     "preview": "/vfx/asap-rocky-pray4dagang.mp4",
     "videoUrl": "https://player.vimeo.com/video/1099605869",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" },
-          { "name": "@mariusgonzalez", "url": "https://www.instagram.com/mariusgonzalez/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          },
+          {
+            "name": "@mariusgonzalez",
+            "url": "https://www.instagram.com/mariusgonzalez/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "002",
     "title": "Nike - AIRMAX DN8 (Yuto Horigome)",
     "year": 2025,
     "thumbnail": "/vfx/nike-airmax-dn8.webp",
     "preview": "/vfx/nike-airmax-dn8.mp4",
     "videoUrl": "https://player.vimeo.com/video/1070041655",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@mano__d", "url": "https://www.instagram.com/mano__d/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@mano__d",
+            "url": "https://www.instagram.com/mano__d/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "003",
     "title": "Jim Legxacy - I just banged a snus in canada water",
     "year": 2025,
     "thumbnail": "/vfx/jim-legxacy-canada-water.webp",
     "preview": "/vfx/jim-legxacy-canada-water.mp4",
     "videoUrl": "https://www.youtube.com/embed/sM2phJAmGWM",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Rohan" }] },
-      { "role": "Produced by", "names": [{ "name": "Do More Research" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Rohan"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Do More Research"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@niallproctor" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@sxftwre" },
-          { "name": "@rohan.dil" }
+          {
+            "name": "@niallproctor"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@sxftwre"
+          },
+          {
+            "name": "@rohan.dil"
+          }
         ]
       },
       {
         "role": "3D",
-        "names": [{ "name": "@rohan.dil" }, { "name": "@sxftwre" }]
+        "names": [
+          {
+            "name": "@rohan.dil"
+          },
+          {
+            "name": "@sxftwre"
+          }
+        ]
       }
     ]
   },
   {
-    "slug": "004",
     "title": "Zalando - As you dream it (director's cut)",
     "year": 2024,
     "thumbnail": "/vfx/zalando-as-you-dream-it.webp",
     "preview": "/vfx/zalando-as-you-dream-it.mp4",
     "videoUrl": null,
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Solab" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Solab"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" },
-          { "name": "@mariusgonzalez", "url": "https://www.instagram.com/mariusgonzalez/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          },
+          {
+            "name": "@mariusgonzalez",
+            "url": "https://www.instagram.com/mariusgonzalez/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Motion design",
         "names": [
-          { "name": "@23_chloe", "url": "https://www.instagram.com/23_chloe/" }
+          {
+            "name": "@23_chloe",
+            "url": "https://www.instagram.com/23_chloe/"
+          }
         ]
       },
       {
         "role": "Music / Sound design",
         "names": [
-          { "name": "@pabloarcansas", "url": "https://www.instagram.com/pabloarcansas/" }
+          {
+            "name": "@pabloarcansas",
+            "url": "https://www.instagram.com/pabloarcansas/"
+          }
         ]
       },
       {
         "role": "Grading",
         "names": [
-          { "name": "@marinesurble", "url": "https://www.instagram.com/marinesurble/" }
+          {
+            "name": "@marinesurble",
+            "url": "https://www.instagram.com/marinesurble/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "005",
     "title": "Life is Hard - Swag Planet",
     "year": 2026,
     "thumbnail": "/vfx/life-is-hard-swag-planet.webp",
@@ -209,202 +360,342 @@
       {
         "role": "Directed by",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Produced by",
         "names": [
-          { "name": "@lifeishard.bb", "url": "https://www.instagram.com/lifeishard.bb/" }
+          {
+            "name": "@lifeishard.bb",
+            "url": "https://www.instagram.com/lifeishard.bb/"
+          }
         ]
       },
       {
         "role": "Post Production House",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Editor",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "3D Object",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "Graphic Design",
         "names": [
-          { "name": "@colinecayzac", "url": "https://www.instagram.com/colinecayzac/" },
-          { "name": "@lucasgouet", "url": "https://www.instagram.com/lucasgouet/" }
+          {
+            "name": "@colinecayzac",
+            "url": "https://www.instagram.com/colinecayzac/"
+          },
+          {
+            "name": "@lucasgouet",
+            "url": "https://www.instagram.com/lucasgouet/"
+          }
         ]
       },
       {
         "role": "Sound Design",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color Grading",
         "names": [
-          { "name": "@theodorepejout", "url": "https://www.instagram.com/theodorepejout/" }
+          {
+            "name": "@theodorepejout",
+            "url": "https://www.instagram.com/theodorepejout/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "006",
     "title": "Josman - SPOTLIGHTS",
     "year": 2024,
     "thumbnail": "/vfx/josman-spotlights.webp",
     "preview": "/vfx/josman-spotlights.mp4",
     "videoUrl": "https://www.youtube.com/embed/2HnAV9HwjQo",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "007",
     "title": "Jung Kook ft. Jack Harlow - 3D",
     "year": 2023,
     "thumbnail": "/vfx/jung-kook-ft-jack-harlow-3d.webp",
     "preview": "/vfx/jung-kook-ft-jack-harlow-3d.mp4",
     "videoUrl": "https://www.youtube.com/embed/mHNCM-YALSA",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Drew Kirsch" }] },
-      { "role": "Produced by", "names": [{ "name": "HAPPY PLACE" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Drew Kirsch"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "HAPPY PLACE"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@davec9k", "url": "https://www.instagram.com/davec9k/" },
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" },
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@davec9k",
+            "url": "https://www.instagram.com/davec9k/"
+          },
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          },
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@dylanhageman", "url": "https://www.instagram.com/dylanhageman/" }
+          {
+            "name": "@dylanhageman",
+            "url": "https://www.instagram.com/dylanhageman/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "008",
     "title": "Nouvelle École - S03 Teaser",
     "year": 2024,
     "thumbnail": "/vfx/nouvelle-ecole-s03-teaser.webp",
     "preview": "/vfx/nouvelle-ecole-s03-teaser.mp4",
     "videoUrl": "https://www.youtube.com/embed/LugWEXT1qGU",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Jeremie Levypon" }] },
-      { "role": "Produced by", "names": [{ "name": "Dissidence" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Jeremie Levypon"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Dissidence"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@kysra", "url": "https://www.instagram.com/kysra/" }
+          {
+            "name": "@kysra",
+            "url": "https://www.instagram.com/kysra/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" },
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          },
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@titouanfrrr", "url": "https://www.instagram.com/titouanfrrr/" },
-          { "name": "@lorini_leo", "url": "https://www.instagram.com/lorini_leo/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@titouanfrrr",
+            "url": "https://www.instagram.com/titouanfrrr/"
+          },
+          {
+            "name": "@lorini_leo",
+            "url": "https://www.instagram.com/lorini_leo/"
+          }
         ]
       },
       {
         "role": "Colored",
         "names": [
-          { "name": "@nico_gautier_colorist", "url": "https://www.instagram.com/nico_gautier_colorist/" }
+          {
+            "name": "@nico_gautier_colorist",
+            "url": "https://www.instagram.com/nico_gautier_colorist/"
+          }
         ]
       },
       {
         "role": "Sound & music",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "009",
     "title": "Glass Animals - A Tear In Space (Airlock)",
     "year": 2024,
     "thumbnail": "/vfx/glass-animals-a-tear-in-space.webp",
@@ -413,651 +704,1135 @@
     "credits": [
       {
         "role": "Directed by",
-        "names": [{ "name": "Taylor Fauntleroy & Drew Kirsch" }]
+        "names": [
+          {
+            "name": "Taylor Fauntleroy & Drew Kirsch"
+          }
+        ]
       },
-      { "role": "Produced by", "names": [{ "name": "HAPPY PLACE" }] },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "HAPPY PLACE"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouanfrrr", "url": "https://www.instagram.com/titouanfrrr/" }
+          {
+            "name": "@titouanfrrr",
+            "url": "https://www.instagram.com/titouanfrrr/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@timotheous", "url": "https://www.instagram.com/timotheous/" },
-          { "name": "@no8colour", "url": "https://www.instagram.com/no8colour/" }
+          {
+            "name": "@timotheous",
+            "url": "https://www.instagram.com/timotheous/"
+          },
+          {
+            "name": "@no8colour",
+            "url": "https://www.instagram.com/no8colour/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "010",
     "title": "Josman - Bercy Show",
     "year": 2024,
     "thumbnail": "/vfx/josman-bercy-show.webp",
     "preview": "/vfx/josman-bercy-show.mp4",
     "videoUrl": null,
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
       {
         "role": "Post-production team",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" },
-          { "name": "@tuuan_", "url": "https://www.instagram.com/tuuan_/" },
-          { "name": "@victor_lenglet", "url": "https://www.instagram.com/victor_lenglet/" },
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" },
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" },
-          { "name": "@mae_brg", "url": "https://www.instagram.com/mae_brg/" },
-          { "name": "@mano__d", "url": "https://www.instagram.com/mano__d/" },
-          { "name": "@alinakozl", "url": "https://www.instagram.com/alinakozl/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          },
+          {
+            "name": "@tuuan_",
+            "url": "https://www.instagram.com/tuuan_/"
+          },
+          {
+            "name": "@victor_lenglet",
+            "url": "https://www.instagram.com/victor_lenglet/"
+          },
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          },
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          },
+          {
+            "name": "@mae_brg",
+            "url": "https://www.instagram.com/mae_brg/"
+          },
+          {
+            "name": "@mano__d",
+            "url": "https://www.instagram.com/mano__d/"
+          },
+          {
+            "name": "@alinakozl",
+            "url": "https://www.instagram.com/alinakozl/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "011",
     "title": "Omega - Road to the Olympics",
     "year": 2024,
     "thumbnail": "/vfx/omega-road-to-the-olympics.webp",
     "preview": "/vfx/omega-road-to-the-olympics.mp4",
     "videoUrl": "https://player.vimeo.com/video/981966257",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@kysra", "url": "https://www.instagram.com/kysra/" }
+          {
+            "name": "@kysra",
+            "url": "https://www.instagram.com/kysra/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "012",
     "title": "4Batz - act v: there goes another vase",
     "year": 2024,
     "thumbnail": "/vfx/4batz-act-v-there-goes-another-vase.webp",
     "preview": "/vfx/4batz-act-v-there-goes-another-vase.mp4",
     "videoUrl": "https://www.youtube.com/embed/T7lNnWCRlYE",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "child." }] },
-      { "role": "Produced by", "names": [{ "name": "The Funnel Creative" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "child."
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "The Funnel Creative"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@mikeypackage", "url": "https://www.instagram.com/mikeypackage/" }
+          {
+            "name": "@mikeypackage",
+            "url": "https://www.instagram.com/mikeypackage/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "013",
     "title": "Bose - Ultra Open Earbuds",
     "year": 2024,
     "thumbnail": "/vfx/bose-ultra-open-earbuds.webp",
     "preview": "/vfx/bose-ultra-open-earbuds.mp4",
     "videoUrl": null,
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "GIOVANNY SCOTT" }] },
-      { "role": "Produced by", "names": [{ "name": "Noble" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "GIOVANNY SCOTT"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Noble"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@stephaneazar", "url": "https://www.instagram.com/stephaneazar/" }
+          {
+            "name": "@stephaneazar",
+            "url": "https://www.instagram.com/stephaneazar/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@stephaneazar", "url": "https://www.instagram.com/stephaneazar/" }
+          {
+            "name": "@stephaneazar",
+            "url": "https://www.instagram.com/stephaneazar/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@trancactus", "url": "https://www.instagram.com/trancactus/" }
+          {
+            "name": "@trancactus",
+            "url": "https://www.instagram.com/trancactus/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "014",
     "title": "Romain Barry - Princesse",
     "year": 2024,
     "thumbnail": "/vfx/romain-barry-princesse.webp",
     "preview": "/vfx/romain-barry-princesse.mp4",
     "videoUrl": "https://www.youtube.com/embed/PMx1y90Lu6Y",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Alexis Benot" }] },
-      { "role": "Produced by", "names": [{ "name": "P92" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Alexis Benot"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "P92"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@marinesurble", "url": "https://www.instagram.com/marinesurble/" }
+          {
+            "name": "@marinesurble",
+            "url": "https://www.instagram.com/marinesurble/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "015",
     "title": "Emilia, Luísa Sonza - bunda 🍑",
     "year": 2025,
     "thumbnail": "/vfx/emilia-luisa-sonza-bunda.webp",
     "preview": "/vfx/emilia-luisa-sonza-bunda.mp4",
     "videoUrl": "https://www.youtube.com/embed/GpefTFZLknk",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Léa Esmaili" }] },
-      { "role": "Produced by", "names": [{ "name": "Dependant" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Léa Esmaili"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Dependant"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@stephaneazar", "url": "https://www.instagram.com/stephaneazar/" }
+          {
+            "name": "@stephaneazar",
+            "url": "https://www.instagram.com/stephaneazar/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "016",
     "title": "Yvnnis - PAULETA",
     "year": 2024,
     "thumbnail": "/vfx/yvnnis-pauleta.webp",
     "preview": "/vfx/yvnnis-pauleta.mp4",
     "videoUrl": "https://www.youtube.com/embed/dcssYzH84wE",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Léa Esmaili" }] },
-      { "role": "Produced by", "names": [{ "name": "Dependant" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Léa Esmaili"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Dependant"
+          }
+        ]
+      },
       {
         "role": "Edit",
         "names": [
-          { "name": "@legabrielcantal", "url": "https://www.instagram.com/legabrielcantal/" }
+          {
+            "name": "@legabrielcantal",
+            "url": "https://www.instagram.com/legabrielcantal/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@cclv_studio", "url": "https://www.instagram.com/cclv_studio/" },
-          { "name": "@wetrustprocess", "url": "https://www.instagram.com/wetrustprocess/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@cclv_studio",
+            "url": "https://www.instagram.com/cclv_studio/"
+          },
+          {
+            "name": "@wetrustprocess",
+            "url": "https://www.instagram.com/wetrustprocess/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@yanis_aarrouf", "url": "https://www.instagram.com/yanis_aarrouf/" }
+          {
+            "name": "@yanis_aarrouf",
+            "url": "https://www.instagram.com/yanis_aarrouf/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "018",
     "title": "Vico - Bienvenue à Vic-sur-Aisne",
     "year": 2024,
     "thumbnail": "/vfx/vico-bienvenue-a-vic-sur-aisne.webp",
     "preview": "/vfx/vico-bienvenue-a-vic-sur-aisne.mp4",
     "videoUrl": null,
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Basile Bonnot" }] },
-      { "role": "Produced by", "names": [{ "name": "The Funnel Creative" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Basile Bonnot"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "The Funnel Creative"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@kysra", "url": "https://www.instagram.com/kysra/" }
+          {
+            "name": "@kysra",
+            "url": "https://www.instagram.com/kysra/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@mano__d", "url": "https://www.instagram.com/mano__d/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@mano__d",
+            "url": "https://www.instagram.com/mano__d/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@lorini_leo", "url": "https://www.instagram.com/lorini_leo/" }
+          {
+            "name": "@lorini_leo",
+            "url": "https://www.instagram.com/lorini_leo/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@nico_gautier_colorist", "url": "https://www.instagram.com/nico_gautier_colorist/" }
+          {
+            "name": "@nico_gautier_colorist",
+            "url": "https://www.instagram.com/nico_gautier_colorist/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "019",
     "title": "Can-Am - Ditch The Norm",
     "year": 2025,
     "thumbnail": "/vfx/can-am-ditch-the-norm.webp",
     "preview": "/vfx/can-am-ditch-the-norm.mp4",
     "videoUrl": "https://player.vimeo.com/video/1069184298",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "020",
     "title": "Lacoste - Shot the lights out",
     "year": 2025,
     "thumbnail": "/vfx/lacoste-shot-the-lights-out.webp",
     "preview": "/vfx/lacoste-shot-the-lights-out.mp4",
     "videoUrl": "https://www.youtube.com/embed/wdGgM-MhRbs",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Global" }] },
-      { "role": "Produced by", "names": [{ "name": "Partizan" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Global"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Partizan"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@kysra", "url": "https://www.instagram.com/kysra/" }
+          {
+            "name": "@kysra",
+            "url": "https://www.instagram.com/kysra/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX Supervisor",
         "names": [
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@trancactus", "url": "https://www.instagram.com/trancactus/" }
+          {
+            "name": "@trancactus",
+            "url": "https://www.instagram.com/trancactus/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "021",
     "title": "Realo - LIFE",
     "year": 2025,
     "thumbnail": "/vfx/realo-life.webp",
     "preview": "/vfx/realo-life.mp4",
     "videoUrl": "https://www.youtube.com/embed/xGe4a-rml4M",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Melchior Leroux" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Melchior Leroux"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@trancactus", "url": "https://www.instagram.com/trancactus/" }
+          {
+            "name": "@trancactus",
+            "url": "https://www.instagram.com/trancactus/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "022",
     "title": "FA25 KOBE x FCB",
     "year": 2025,
     "thumbnail": "/vfx/fa25-kobe-x-fcb.webp",
     "preview": "/vfx/fa25-kobe-x-fcb.mp4",
     "videoUrl": null,
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@104nickels", "url": "https://www.instagram.com/104nickels/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@104nickels",
+            "url": "https://www.instagram.com/104nickels/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" },
-          { "name": "@simon.brejoux", "url": "https://www.instagram.com/simon.brejoux/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          },
+          {
+            "name": "@simon.brejoux",
+            "url": "https://www.instagram.com/simon.brejoux/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@arthurpaux", "url": "https://www.instagram.com/arthurpaux/" }
+          {
+            "name": "@arthurpaux",
+            "url": "https://www.instagram.com/arthurpaux/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "023",
     "title": "Josman - L'EAU (Part. II)",
     "year": 2025,
     "thumbnail": "/vfx/josman-leau-part-ii.webp",
     "preview": "/vfx/josman-leau-part-ii.mp4",
     "videoUrl": "https://www.youtube.com/embed/uFPibipwNeE",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "024",
     "title": "Sébastien Tellier ft. Slayyyter & Nile Rodgers - Thrill Of The Night",
     "year": 2025,
     "thumbnail": "/vfx/sebastien-tellier-thrill-of-the-night.webp",
     "preview": "/vfx/sebastien-tellier-thrill-of-the-night.mp4",
     "videoUrl": "https://www.youtube.com/embed/sSWDeA4WLpQ",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Melchior Leroux" }] },
-      { "role": "Produced by", "names": [{ "name": "Dependant" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Melchior Leroux"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Dependant"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@rafael.moulinr", "url": "https://www.instagram.com/rafael.moulinr/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@rafael.moulinr",
+            "url": "https://www.instagram.com/rafael.moulinr/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@nico_gautier_colorist", "url": "https://www.instagram.com/nico_gautier_colorist/" }
+          {
+            "name": "@nico_gautier_colorist",
+            "url": "https://www.instagram.com/nico_gautier_colorist/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "025",
     "title": "Hamza - YESTERDAY",
     "year": 2025,
     "thumbnail": "/vfx/hamza-yesterday.webp",
@@ -1066,97 +1841,175 @@
     "credits": [
       {
         "role": "Directed by",
-        "names": [{ "name": "Hugo Bembi & Sacha Naceri" }]
+        "names": [
+          {
+            "name": "Hugo Bembi & Sacha Naceri"
+          }
+        ]
       },
-      { "role": "Produced by", "names": [{ "name": "Way TV" }] },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Way TV"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@eugenesignoret", "url": "https://www.instagram.com/eugenesignoret/" }
+          {
+            "name": "@eugenesignoret",
+            "url": "https://www.instagram.com/eugenesignoret/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@rafael.moulinr", "url": "https://www.instagram.com/rafael.moulinr/" },
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@rafael.moulinr",
+            "url": "https://www.instagram.com/rafael.moulinr/"
+          },
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "SD",
         "names": [
-          { "name": "@kitchenette.fm", "url": "https://www.instagram.com/kitchenette.fm/" }
+          {
+            "name": "@kitchenette.fm",
+            "url": "https://www.instagram.com/kitchenette.fm/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@marinastarke.color", "url": "https://www.instagram.com/marinastarke.color/" },
-          { "name": "@okaystudio", "url": "https://www.instagram.com/okaystudio/" }
+          {
+            "name": "@marinastarke.color",
+            "url": "https://www.instagram.com/marinastarke.color/"
+          },
+          {
+            "name": "@okaystudio",
+            "url": "https://www.instagram.com/okaystudio/"
+          }
         ]
       }
     ]
   },
   {
-    "slug": "026",
     "title": "Josman - TENDU",
     "year": 2025,
     "thumbnail": "/vfx/josman-tendu.webp",
     "preview": "/vfx/josman-tendu.mp4",
     "videoUrl": "https://www.youtube.com/embed/-XqFcM97FSg",
     "credits": [
-      { "role": "Directed by", "names": [{ "name": "Marius Gonzalez" }] },
-      { "role": "Produced by", "names": [{ "name": "Division" }] },
+      {
+        "role": "Directed by",
+        "names": [
+          {
+            "name": "Marius Gonzalez"
+          }
+        ]
+      },
+      {
+        "role": "Produced by",
+        "names": [
+          {
+            "name": "Division"
+          }
+        ]
+      },
       {
         "role": "Post-production",
         "names": [
-          { "name": "@paume.p", "url": "https://www.instagram.com/paume.p/" }
+          {
+            "name": "@paume.p",
+            "url": "https://www.instagram.com/paume.p/"
+          }
         ]
       },
       {
         "role": "Post producer",
         "names": [
-          { "name": "@madknd", "url": "https://www.instagram.com/madknd/" }
+          {
+            "name": "@madknd",
+            "url": "https://www.instagram.com/madknd/"
+          }
         ]
       },
       {
         "role": "Edit",
         "names": [
-          { "name": "@v.o.l.e", "url": "https://www.instagram.com/v.o.l.e/" }
+          {
+            "name": "@v.o.l.e",
+            "url": "https://www.instagram.com/v.o.l.e/"
+          }
         ]
       },
       {
         "role": "VFX",
         "names": [
-          { "name": "@melkiaur", "url": "https://www.instagram.com/melkiaur/" },
-          { "name": "@mizh_u", "url": "https://www.instagram.com/mizh_u/" },
-          { "name": "@rafael.moulinr", "url": "https://www.instagram.com/rafael.moulinr/" }
+          {
+            "name": "@melkiaur",
+            "url": "https://www.instagram.com/melkiaur/"
+          },
+          {
+            "name": "@mizh_u",
+            "url": "https://www.instagram.com/mizh_u/"
+          },
+          {
+            "name": "@rafael.moulinr",
+            "url": "https://www.instagram.com/rafael.moulinr/"
+          }
         ]
       },
       {
         "role": "3D",
         "names": [
-          { "name": "@titouan_fourreau", "url": "https://www.instagram.com/titouan_fourreau/" }
+          {
+            "name": "@titouan_fourreau",
+            "url": "https://www.instagram.com/titouan_fourreau/"
+          }
         ]
       },
       {
         "role": "Color-grading",
         "names": [
-          { "name": "@made_with_amor", "url": "https://www.instagram.com/made_with_amor/" }
+          {
+            "name": "@made_with_amor",
+            "url": "https://www.instagram.com/made_with_amor/"
+          }
         ]
       }
     ]
