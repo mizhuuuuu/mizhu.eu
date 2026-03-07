@@ -235,6 +235,15 @@ const { projects } = Astro.props;
 		const img = card.querySelector('img')!;
 		const video = card.querySelector('video')!;
 
+		// readyState >= 3 (HAVE_FUTURE_DATA) means the video is already buffered from a previous play.
+		// In that case, canplay won't fire again — swap immediately without waiting for it.
+		if (video.readyState >= 3) {
+			img.style.display = 'none';
+			video.style.display = 'block';
+			video.play();
+			return;
+		}
+
 		const onCanPlay = () => {
 			pendingListeners.delete(card);
 			img.style.display = 'none';
