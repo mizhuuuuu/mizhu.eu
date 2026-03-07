@@ -330,7 +330,7 @@ const { projects } = Astro.props;
 			for (const credit of credits) {
 				const label = document.createElement('span');
 				label.className = 'label';
-				label.textContent = `${credit.role.toLowerCase()}:`;
+				label.textContent = `${credit.role}:`;
 
 				const value = document.createElement('span');
 				value.innerHTML = credit.names
