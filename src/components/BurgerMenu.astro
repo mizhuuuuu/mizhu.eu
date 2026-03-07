@@ -86,6 +86,7 @@
 		const isOpen = burger.classList.toggle('active');
 		overlay?.classList.toggle('active');
 		burger.setAttribute('aria-expanded', String(isOpen));
+		document.body.style.overflow = isOpen ? 'hidden' : '';
 	});
 
 	document.addEventListener('keydown', (e) => {
@@ -93,6 +94,7 @@
 			burger?.classList.remove('active');
 			overlay.classList.remove('active');
 			burger?.setAttribute('aria-expanded', 'false');
+			document.body.style.overflow = '';
 		}
 	});
 </script>
