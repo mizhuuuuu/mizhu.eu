@@ -10,7 +10,7 @@ import contact from "../data/contact.json";
 		<img src={headerLogo.src} alt="MIZHU" width={headerLogo.width} height={headerLogo.height} class="stamp" />
 		<div class="contact">
 			<span class="email" data-email={contact.email}>{contact.email}</span>
-			<a href={contact.instagram.url} target="_blank" rel="noopener">Instagram</a>
+			<a href={`https://instagram.com/${contact.instagram_handle}`} target="_blank" rel="noopener">Instagram</a>
 		</div>
 	</div>
 </Layout>

@@ -1,7 +1,11 @@
 ---
+type CreditName =
+	| { name: string; instagram_handle?: never }
+	| { instagram_handle: string; name?: never };
+
 interface Credit {
 	role: string;
-	names: { name: string; url?: string }[];
+	names: CreditName[];
 }
 
 interface Project {
@@ -338,9 +342,9 @@ const { projects } = Astro.props;
 
 				const value = document.createElement('span');
 				value.innerHTML = credit.names
-					.map((n: { name: string; url?: string }) =>
-						n.url
-							? `<a href="${n.url}" target="_blank" rel="noopener noreferrer">${n.name}</a>`
+					.map((n: { name?: string; instagram_handle?: string }) =>
+						n.instagram_handle
+							? `<a href="https://instagram.com/${n.instagram_handle}" target="_blank" rel="noopener noreferrer">@${n.instagram_handle}</a>`
 							: n.name
 					)
 					.join(' ');
