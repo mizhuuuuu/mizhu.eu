@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("/fonts/roboto-condensed-latin.woff2") format("woff2");
+}
+
 :root {
 	--color-bg: #bf1d0f;
 }
