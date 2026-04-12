@@ -1,10 +1,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { createRequire } from 'node:module';
-import { assertInstagramHandle } from './asserts.js';
-
-const require = createRequire(import.meta.url);
-const contact = require('../src/data/contact.json');
+import { assertInstagramHandle } from './asserts.ts';
+import contact from '../src/data/contact.json' with { type: 'json' };
 
 describe('contact', () => {
 	test('email is a valid-looking address', () => {

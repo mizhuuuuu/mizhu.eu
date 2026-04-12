@@ -1,17 +1,32 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { createRequire } from 'node:module';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { assertInstagramHandle } from './asserts.js';
+import { assertInstagramHandle } from './asserts.ts';
+import directedBy from '../src/data/directed-by-projects.json' with { type: 'json' };
+import vfxBy from '../src/data/vfx-by-projects.json' with { type: 'json' };
 
-const require = createRequire(import.meta.url);
-const directedBy = require('../src/data/directed-by-projects.json');
-const vfxBy = require('../src/data/vfx-by-projects.json');
+type CreditName =
+	| { name: string; instagram_handle?: never }
+	| { instagram_handle: string; name?: never };
 
-const datasets = [
-	{ name: 'directed-by-projects', projects: directedBy },
-	{ name: 'vfx-by-projects', projects: vfxBy },
+interface Credit {
+	role: string;
+	names: CreditName[];
+}
+
+interface Project {
+	title: string;
+	year: number;
+	thumbnail: string;
+	preview: string;
+	videoUrl: string | null;
+	credits: Credit[];
+}
+
+const datasets: { name: string; projects: Project[] }[] = [
+	{ name: 'directed-by-projects', projects: directedBy as Project[] },
+	{ name: 'vfx-by-projects', projects: vfxBy as Project[] },
 ];
 
 for (const { name, projects } of datasets) {
@@ -33,8 +48,11 @@ for (const { name, projects } of datasets) {
 					assert.ok(project.preview.startsWith('/'));
 				});
 
-				test('thumbnail and preview files exist under public/', () => {
+				test('thumbnail exists in public/', () => {
 					assert.ok(existsSync(join('public', project.thumbnail)), `missing thumbnail: ${project.thumbnail}`);
+				});
+
+				test('preview exists in public/', () => {
 					assert.ok(existsSync(join('public', project.preview)), `missing preview: ${project.preview}`);
 				});
 
@@ -58,7 +76,7 @@ for (const { name, projects } of datasets) {
 						assert.ok(Array.isArray(credit.names), 'credit.names must be an array');
 						assert.ok(credit.names.length > 0, 'credit.names must not be empty');
 
-						const seen = new Set();
+						const seen = new Set<string>();
 						for (const nameEntry of credit.names) {
 							const hasName = nameEntry.name !== undefined;
 							const hasHandle = nameEntry.instagram_handle !== undefined;
@@ -70,10 +88,10 @@ for (const { name, projects } of datasets) {
 								assertInstagramHandle(nameEntry.instagram_handle);
 							} else {
 								assert.equal(typeof nameEntry.name, 'string');
-								assert.ok(nameEntry.name.length > 0);
+								assert.ok(nameEntry.name!.length > 0);
 							}
 
-							const key = hasHandle ? `@${nameEntry.instagram_handle}` : nameEntry.name;
+							const key = hasHandle ? `@${nameEntry.instagram_handle}` : nameEntry.name!;
 							assert.ok(!seen.has(key), `duplicate credit entry in "${credit.role}": ${key}`);
 							seen.add(key);
 						}
