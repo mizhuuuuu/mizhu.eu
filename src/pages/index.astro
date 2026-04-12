@@ -3,7 +3,10 @@ import Layout from "../layouts/Layout.astro";
 import HeaderLogo from "../components/HeaderLogo.astro";
 import ProjectGrid from "../components/ProjectGrid.astro";
 import headerLogo from "../assets/directed-by-mizhu.png";
-import projects from "../data/directed-by-projects.json";
+import type { Project } from "../types";
+
+const modules = import.meta.glob<Project>("../data/directed-by/*.json", { eager: true, import: "default" });
+const projects = Object.values(modules).sort((a, b) => a.order - b.order);
 ---
 
 <Layout title="MIZHU – DIRECTOR & VFX ARTIST" description="Director & VFX artist based in Paris (France)">

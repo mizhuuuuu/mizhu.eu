@@ -1,0 +1,88 @@
+{
+  "title": "Zalando - As you dream it (director's cut)",
+  "year": 2024,
+  "order": 40,
+  "thumbnail": "/vfx/zalando-as-you-dream-it.webp",
+  "preview": "/vfx/zalando-as-you-dream-it.mp4",
+  "videoUrl": null,
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Marius Gonzalez"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Solab"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        },
+        {
+          "instagram_handle": "mariusgonzalez"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Motion design",
+      "names": [
+        {
+          "instagram_handle": "23_chloe"
+        }
+      ]
+    },
+    {
+      "role": "Music / Sound design",
+      "names": [
+        {
+          "instagram_handle": "pabloarcansas"
+        }
+      ]
+    },
+    {
+      "role": "Grading",
+      "names": [
+        {
+          "instagram_handle": "marinesurble"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Josman - SPOTLIGHTS",
+  "year": 2024,
+  "order": 60,
+  "thumbnail": "/vfx/josman-spotlights.webp",
+  "preview": "/vfx/josman-spotlights.mp4",
+  "videoUrl": "https://www.youtube.com/embed/2HnAV9HwjQo",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Marius Gonzalez"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Division"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "madknd"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "made_with_amor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Life is Hard - Swag Planet",
+  "year": 2026,
+  "order": 50,
+  "thumbnail": "/vfx/life-is-hard-swag-planet.webp",
+  "preview": "/vfx/life-is-hard-swag-planet.mp4",
+  "videoUrl": "https://www.youtube.com/embed/R5sdJMSgfqE",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "instagram_handle": "lifeishard.bb"
+        }
+      ]
+    },
+    {
+      "role": "Post Production House",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Editor",
+      "names": [
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "3D Object",
+      "names": [
+        {
+          "instagram_handle": "titouan_fourreau"
+        }
+      ]
+    },
+    {
+      "role": "Graphic Design",
+      "names": [
+        {
+          "instagram_handle": "colinecayzac"
+        },
+        {
+          "instagram_handle": "lucasgouet"
+        }
+      ]
+    },
+    {
+      "role": "Sound Design",
+      "names": [
+        {
+          "instagram_handle": "kitchenette.fm"
+        }
+      ]
+    },
+    {
+      "role": "Color Grading",
+      "names": [
+        {
+          "instagram_handle": "theodorepejout"
+        }
+      ]
+    }
+  ]
+}

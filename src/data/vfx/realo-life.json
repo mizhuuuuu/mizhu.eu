@@ -1,0 +1,53 @@
+{
+  "title": "Realo - LIFE",
+  "year": 2025,
+  "order": 200,
+  "thumbnail": "/vfx/realo-life.webp",
+  "preview": "/vfx/realo-life.mp4",
+  "videoUrl": "https://www.youtube.com/embed/xGe4a-rml4M",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Melchior Leroux"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "trancactus"
+        }
+      ]
+    }
+  ]
+}

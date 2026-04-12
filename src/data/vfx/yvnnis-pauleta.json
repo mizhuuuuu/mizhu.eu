@@ -1,0 +1,56 @@
+{
+  "title": "Yvnnis - PAULETA",
+  "year": 2024,
+  "order": 160,
+  "thumbnail": "/vfx/yvnnis-pauleta.webp",
+  "preview": "/vfx/yvnnis-pauleta.mp4",
+  "videoUrl": "https://www.youtube.com/embed/dcssYzH84wE",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Léa Esmaili"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Dependant"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "legabrielcantal"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "cclv_studio"
+        },
+        {
+          "instagram_handle": "wetrustprocess"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "yanis_aarrouf"
+        }
+      ]
+    }
+  ]
+}

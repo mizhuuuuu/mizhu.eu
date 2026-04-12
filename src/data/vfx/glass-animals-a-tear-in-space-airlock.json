@@ -1,0 +1,80 @@
+{
+  "title": "Glass Animals - A Tear In Space (Airlock)",
+  "year": 2024,
+  "order": 90,
+  "thumbnail": "/vfx/glass-animals-a-tear-in-space.webp",
+  "preview": "/vfx/glass-animals-a-tear-in-space.mp4",
+  "videoUrl": "https://www.youtube.com/embed/9-LI98Q-rsg",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Taylor Fauntleroy & Drew Kirsch"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "HAPPY PLACE"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "madknd"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "3D",
+      "names": [
+        {
+          "instagram_handle": "titouanfrrr"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "timotheous"
+        },
+        {
+          "instagram_handle": "no8colour"
+        }
+      ]
+    }
+  ]
+}

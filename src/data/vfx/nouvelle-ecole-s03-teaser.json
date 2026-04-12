@@ -1,0 +1,86 @@
+{
+  "title": "Nouvelle École - S03 Teaser",
+  "year": 2024,
+  "order": 80,
+  "thumbnail": "/vfx/nouvelle-ecole-s03-teaser.webp",
+  "preview": "/vfx/nouvelle-ecole-s03-teaser.mp4",
+  "videoUrl": "https://www.youtube.com/embed/LugWEXT1qGU",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Jeremie Levypon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Dissidence"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "kysra"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        },
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "titouanfrrr"
+        },
+        {
+          "instagram_handle": "lorini_leo"
+        }
+      ]
+    },
+    {
+      "role": "Colored",
+      "names": [
+        {
+          "instagram_handle": "nico_gautier_colorist"
+        }
+      ]
+    },
+    {
+      "role": "Sound & music",
+      "names": [
+        {
+          "instagram_handle": "kitchenette.fm"
+        }
+      ]
+    }
+  ]
+}

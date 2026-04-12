@@ -1,0 +1,80 @@
+{
+  "title": "A$AP Rocky - pray4dagang",
+  "year": 2025,
+  "order": 10,
+  "thumbnail": "/vfx/asap-rocky-pray4dagang.webp",
+  "preview": "/vfx/asap-rocky-pray4dagang.mp4",
+  "videoUrl": "https://player.vimeo.com/video/1099605869",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Marius Gonzalez"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Division"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "madknd"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        },
+        {
+          "instagram_handle": "mariusgonzalez"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "3D",
+      "names": [
+        {
+          "instagram_handle": "titouan_fourreau"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "made_with_amor"
+        }
+      ]
+    }
+  ]
+}

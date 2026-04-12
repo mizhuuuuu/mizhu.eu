@@ -3,7 +3,10 @@ import Layout from "../layouts/Layout.astro";
 import HeaderLogo from "../components/HeaderLogo.astro";
 import ProjectGrid from "../components/ProjectGrid.astro";
 import headerLogo from "../assets/vfx-by-mizhu.png";
-import projects from "../data/vfx-by-projects.json";
+import type { Project } from "../types";
+
+const modules = import.meta.glob<Project>("../data/vfx/*.json", { eager: true, import: "default" });
+const projects = Object.values(modules).sort((a, b) => a.order - b.order);
 ---
 
 <Layout title="MIZHU – DIRECTOR & VFX ARTIST" description="VFX work by MIZHU, compositing and visual effects for music videos and ads">

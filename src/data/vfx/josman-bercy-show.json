@@ -1,0 +1,53 @@
+{
+  "title": "Josman - Bercy Show",
+  "year": 2024,
+  "order": 100,
+  "thumbnail": "/vfx/josman-bercy-show.webp",
+  "preview": "/vfx/josman-bercy-show.mp4",
+  "videoUrl": null,
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Marius Gonzalez"
+        }
+      ]
+    },
+    {
+      "role": "Post-production team",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        },
+        {
+          "instagram_handle": "tuuan_"
+        },
+        {
+          "instagram_handle": "victor_lenglet"
+        },
+        {
+          "instagram_handle": "eugenesignoret"
+        },
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "madknd"
+        },
+        {
+          "instagram_handle": "mae_brg"
+        },
+        {
+          "instagram_handle": "mano__d"
+        },
+        {
+          "instagram_handle": "alinakozl"
+        }
+      ]
+    }
+  ]
+}

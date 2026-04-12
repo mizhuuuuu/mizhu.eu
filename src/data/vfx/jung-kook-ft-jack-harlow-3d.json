@@ -1,0 +1,75 @@
+{
+  "title": "Jung Kook ft. Jack Harlow - 3D",
+  "year": 2023,
+  "order": 70,
+  "thumbnail": "/vfx/jung-kook-ft-jack-harlow-3d.webp",
+  "preview": "/vfx/jung-kook-ft-jack-harlow-3d.mp4",
+  "videoUrl": "https://www.youtube.com/embed/mHNCM-YALSA",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Drew Kirsch"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "HAPPY PLACE"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "madknd"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "davec9k"
+        },
+        {
+          "instagram_handle": "v.o.l.e"
+        },
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "dylanhageman"
+        }
+      ]
+    }
+  ]
+}

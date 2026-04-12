@@ -1,0 +1,61 @@
+{
+  "title": "Romain Barry - Princesse",
+  "year": 2024,
+  "order": 140,
+  "thumbnail": "/vfx/romain-barry-princesse.webp",
+  "preview": "/vfx/romain-barry-princesse.mp4",
+  "videoUrl": "https://www.youtube.com/embed/PMx1y90Lu6Y",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Alexis Benot"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "P92"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "melkiaur"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "marinesurble"
+        }
+      ]
+    }
+  ]
+}

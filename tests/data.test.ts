@@ -1,32 +1,21 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { join, resolve } from 'node:path';
 import { assertInstagramHandle } from './asserts.ts';
-import directedBy from '../src/data/directed-by-projects.json' with { type: 'json' };
-import vfxBy from '../src/data/vfx-by-projects.json' with { type: 'json' };
+import type { Project } from '../src/types.ts';
 
-type CreditName =
-	| { name: string; instagram_handle?: never }
-	| { instagram_handle: string; name?: never };
 
-interface Credit {
-	role: string;
-	names: CreditName[];
-}
-
-interface Project {
-	title: string;
-	year: number;
-	thumbnail: string;
-	preview: string;
-	videoUrl: string | null;
-	credits: Credit[];
+function loadFolder(folder: string): Project[] {
+	const dir = resolve(import.meta.dirname, '..', 'src', 'data', folder);
+	return readdirSync(dir)
+		.filter((f) => f.endsWith('.json'))
+		.map((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')) as Project);
 }
 
 const datasets: { name: string; projects: Project[] }[] = [
-	{ name: 'directed-by-projects', projects: directedBy as Project[] },
-	{ name: 'vfx-by-projects', projects: vfxBy as Project[] },
+	{ name: 'directed-by', projects: loadFolder('directed-by') },
+	{ name: 'vfx', projects: loadFolder('vfx') },
 ];
 
 for (const { name, projects } of datasets) {
@@ -59,6 +48,11 @@ for (const { name, projects } of datasets) {
 				test('year is a number', () => {
 					assert.equal(typeof project.year, 'number');
 					assert.ok(project.year > 1900 && project.year <= new Date().getFullYear() + 1);
+				});
+
+				test('order is an integer', () => {
+					assert.equal(typeof project.order, 'number');
+					assert.ok(Number.isInteger(project.order));
 				});
 
 				test('videoUrl is a string or null', () => {

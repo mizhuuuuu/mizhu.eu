@@ -1,0 +1,72 @@
+{
+  "title": "32 - RENTA",
+  "year": 2024,
+  "order": 20,
+  "thumbnail": "/directed-by/32-renta.webp",
+  "preview": "/directed-by/32-renta.mp4",
+  "videoUrl": "https://www.youtube.com/embed/nu4UcB8c2bs",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "melkiaur"
+        }
+      ]
+    },
+    {
+      "role": "Post produced",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Editor",
+      "names": [
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Sound design",
+      "names": [
+        {
+          "instagram_handle": "kitchenette.fm"
+        }
+      ]
+    },
+    {
+      "role": "Typography",
+      "names": [
+        {
+          "instagram_handle": "1804fbglp"
+        }
+      ]
+    },
+    {
+      "role": "3D typography",
+      "names": [
+        {
+          "instagram_handle": "pela.xyz"
+        }
+      ]
+    }
+  ]
+}

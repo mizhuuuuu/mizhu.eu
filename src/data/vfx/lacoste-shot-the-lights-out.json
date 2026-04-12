@@ -1,0 +1,85 @@
+{
+  "title": "Lacoste - Shot the lights out",
+  "year": 2025,
+  "order": 190,
+  "thumbnail": "/vfx/lacoste-shot-the-lights-out.webp",
+  "preview": "/vfx/lacoste-shot-the-lights-out.mp4",
+  "videoUrl": "https://www.youtube.com/embed/wdGgM-MhRbs",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Global"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Partizan"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "kysra"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        }
+      ]
+    },
+    {
+      "role": "VFX Supervisor",
+      "names": [
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "SD",
+      "names": [
+        {
+          "instagram_handle": "kitchenette.fm"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "trancactus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "09PEAS - Fais bien ou fais ap",
+  "year": 2023,
+  "order": 30,
+  "thumbnail": "/directed-by/09peas-fais-bien-ou-fais-ap.webp",
+  "preview": "/directed-by/09peas-fais-bien-ou-fais-ap.mp4",
+  "videoUrl": "https://www.youtube.com/embed/L2c9_Nc8hmA",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "instagram_handle": "lazyed_zzz"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        }
+      ]
+    },
+    {
+      "role": "Typography",
+      "names": [
+        {
+          "instagram_handle": "pela.xyz"
+        }
+      ]
+    }
+  ]
+}

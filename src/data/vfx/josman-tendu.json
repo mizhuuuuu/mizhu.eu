@@ -1,0 +1,80 @@
+{
+  "title": "Josman - TENDU",
+  "year": 2025,
+  "order": 250,
+  "thumbnail": "/vfx/josman-tendu.webp",
+  "preview": "/vfx/josman-tendu.mp4",
+  "videoUrl": "https://www.youtube.com/embed/-XqFcM97FSg",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Marius Gonzalez"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Division"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Post producer",
+      "names": [
+        {
+          "instagram_handle": "madknd"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "v.o.l.e"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "rafael.moulinr"
+        }
+      ]
+    },
+    {
+      "role": "3D",
+      "names": [
+        {
+          "instagram_handle": "titouan_fourreau"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "made_with_amor"
+        }
+      ]
+    }
+  ]
+}

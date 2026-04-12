@@ -1,0 +1,72 @@
+{
+  "title": "Sébastien Tellier ft. Slayyyter & Nile Rodgers - Thrill Of The Night",
+  "year": 2025,
+  "order": 230,
+  "thumbnail": "/vfx/sebastien-tellier-thrill-of-the-night.webp",
+  "preview": "/vfx/sebastien-tellier-thrill-of-the-night.mp4",
+  "videoUrl": "https://www.youtube.com/embed/sSWDeA4WLpQ",
+  "credits": [
+    {
+      "role": "Directed by",
+      "names": [
+        {
+          "name": "Melchior Leroux"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "names": [
+        {
+          "name": "Dependant"
+        }
+      ]
+    },
+    {
+      "role": "Post-production",
+      "names": [
+        {
+          "instagram_handle": "paume.p"
+        }
+      ]
+    },
+    {
+      "role": "Edit",
+      "names": [
+        {
+          "instagram_handle": "eugenesignoret"
+        }
+      ]
+    },
+    {
+      "role": "VFX",
+      "names": [
+        {
+          "instagram_handle": "melkiaur"
+        },
+        {
+          "instagram_handle": "mizh_u"
+        },
+        {
+          "instagram_handle": "rafael.moulinr"
+        }
+      ]
+    },
+    {
+      "role": "3D",
+      "names": [
+        {
+          "instagram_handle": "titouan_fourreau"
+        }
+      ]
+    },
+    {
+      "role": "Color-grading",
+      "names": [
+        {
+          "instagram_handle": "nico_gautier_colorist"
+        }
+      ]
+    }
+  ]
+}
