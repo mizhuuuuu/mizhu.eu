@@ -4,6 +4,14 @@ backend:
   name: github
   repo: mizhuuuuu/mizhu.eu
   branch: main
+  base_url: https://mizhu-cms-oauth.cold-haze-a3e9.workers.dev
+  auth_endpoint: auth
+  commit_messages:
+    create: 'content(cms): add {{collection}} "{{slug}}"'
+    update: 'content(cms): update {{collection}} "{{slug}}"'
+    delete: 'content(cms): remove {{collection}} "{{slug}}"'
+    uploadMedia: 'content(cms): upload {{path}}'
+    deleteMedia: 'content(cms): remove {{path}}'
 
 site_url: https://mizhu.eu
 display_url: https://mizhu.eu
