@@ -1,0 +1,13 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "mizhu-cms-oauth",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-04-01",
+	"send_metrics": false,
+	"workers_dev": true,
+	"preview_urls": false,
+	"vars": {
+		"GITHUB_CLIENT_ID": "Ov23liUncgEWbZSmjXQG",
+		"ALLOWED_ORIGIN": "https://mizhu.eu"
+	}
+}
