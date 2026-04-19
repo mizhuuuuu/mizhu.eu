@@ -1,0 +1,31 @@
+---
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex" />
+		<title>MIZHU – CMS</title>
+		<link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
+	</head>
+	<body>
+		<script>
+			import CMS from "decap-cms-app";
+
+			CMS.registerPreviewStyle(
+				`@font-face {
+					font-family: "Roboto Condensed";
+					font-style: normal;
+					font-weight: 100 900;
+					font-display: swap;
+					src: url("/fonts/roboto-condensed-latin.woff2") format("woff2");
+				}
+				body { font-family: "Roboto Condensed", sans-serif; }`,
+				{ raw: true },
+			);
+
+			CMS.init();
+		</script>
+	</body>
+</html>

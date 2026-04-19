@@ -1,0 +1,101 @@
+local_backend: true
+
+backend:
+  name: github
+  repo: mizhuuuuu/mizhu.eu
+  branch: main
+
+site_url: https://mizhu.eu
+display_url: https://mizhu.eu
+logo_url: https://mizhu.eu/apple-touch-icon.png
+
+media_folder: "public"
+public_folder: "/"
+
+collections:
+  - name: directed-by
+    label: "Directed by projects"
+    folder: "src/data/directed-by"
+    format: json
+    extension: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    view_style: grid
+    sortable_fields:
+      - { field: order, default_sort: asc }
+      - title
+      - year
+    media_folder: "/public/directed-by"
+    public_folder: "/directed-by"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Year, name: year, widget: number, value_type: int, min: 2020, max: 2050 }
+      - { label: Order, name: order, widget: number, value_type: int, hint: "Display order (10, 20, 30…). Lower numbers appear first." }
+      - { label: Thumbnail (.webp), name: thumbnail, widget: image, media_library: { config: { multiple: false, max_file_size: 1500000 } }, hint: "Upload a .webp file (max 1.5 MB). In Photoshop: File → Save a Copy → select WebP format." }
+      - { label: Preview video (.mp4), name: preview, widget: file, media_library: { config: { max_file_size: 10000000 } }, hint: "Upload a .mp4 file (max 10 MB). Keep the clip short (≈5-10s) and compress aggressively — this is a loop preview, not a full video." }
+      - { label: Embed URL (YouTube/Vimeo), name: videoUrl, widget: string, required: false, pattern: ['^https://.+', 'Must start with https://'], hint: "Optional. Use the embed URL, not the watch URL! YouTube: youtube.com/embed/VIDEO_ID / Vimeo: player.vimeo.com/video/VIDEO_ID" }
+      - label: Credits
+        name: credits
+        widget: list
+        min: 1
+        max: 100
+        fields:
+          - { label: Role, name: role, widget: string }
+          - label: Names
+            name: names
+            widget: list
+            min: 1
+            max: 100
+            fields:
+              - { label: Name (plain text), name: name, widget: string, required: false }
+              - { label: Instagram handle, name: instagram_handle, widget: string, required: false, pattern: ['^[a-zA-Z0-9_.]+$', 'Must be valid handle without @'], hint: "Fill either 'Name' or 'Instagram handle', not both." }
+
+  - name: vfx
+    label: "VFX projects"
+    folder: "src/data/vfx"
+    format: json
+    extension: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    view_style: grid
+    sortable_fields:
+      - { field: order, default_sort: asc }
+      - title
+      - year
+    media_folder: "/public/vfx"
+    public_folder: "/vfx"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Year, name: year, widget: number, value_type: int, min: 2020, max: 2050 }
+      - { label: Order, name: order, widget: number, value_type: int, hint: "Display order (10, 20, 30…). Lower numbers appear first." }
+      - { label: Thumbnail (.webp), name: thumbnail, widget: image, media_library: { config: { multiple: false, max_file_size: 1500000 } }, hint: "Upload a .webp file (max 1.5 MB). In Photoshop: File → Save a Copy → select WebP format." }
+      - { label: Preview video (.mp4), name: preview, widget: file, media_library: { config: { max_file_size: 10000000 } }, hint: "Upload a .mp4 file (max 10 MB). Keep the clip short (≈5-10s) and compress aggressively — this is a loop preview, not a full video." }
+      - { label: Embed URL (YouTube/Vimeo), name: videoUrl, widget: string, required: false, pattern: ['^https://.+', 'Must start with https://'], hint: "Optional. Use the embed URL, not the watch URL! YouTube: youtube.com/embed/VIDEO_ID / Vimeo: player.vimeo.com/video/VIDEO_ID" }
+      - label: Credits
+        name: credits
+        widget: list
+        min: 1
+        max: 100
+        fields:
+          - { label: Role, name: role, widget: string }
+          - label: Names
+            name: names
+            widget: list
+            min: 1
+            max: 100
+            fields:
+              - { label: Name (plain text), name: name, widget: string, required: false }
+              - { label: Instagram handle, name: instagram_handle, widget: string, required: false, pattern: ['^[a-zA-Z0-9_.]+$', 'Must be valid handle without @'], hint: "Fill either 'Name' or 'Instagram handle', not both." }
+
+  - name: contact
+    label: "Contact"
+    files:
+      - label: "Contact info"
+        name: contact
+        file: "src/data/contact.json"
+        format: json
+        fields:
+          - { label: Email, name: email, widget: string, pattern: ['^[^@\s]+@[^@\s]+\.[^@\s]+$', 'Must be a valid email address'] }
+          - { label: Instagram handle, name: instagram_handle, widget: string, pattern: ['^[a-zA-Z0-9_.]+$', 'Must be valid handle without @'] }

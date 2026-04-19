@@ -1,6 +1,7 @@
-type CreditName =
-	| { name: string; instagram_handle?: never }
-	| { instagram_handle: string; name?: never };
+interface CreditName {
+	name?: string;
+	instagram_handle?: string;
+}
 
 interface Credit {
 	role: string;
@@ -13,6 +14,6 @@ export interface Project {
 	order: number;
 	thumbnail: string;
 	preview: string;
-	videoUrl: string | null;
+	videoUrl?: string;
 	credits: Credit[];
 }

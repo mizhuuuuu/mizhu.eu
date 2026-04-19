@@ -34,3 +34,12 @@ pnpm run preview  # Preview production build
 - **Site URL**: Defined in `astro.config.mjs` (`site` option), accessible via `Astro.site`
 - **Shared components**: Reusable UI lives in `src/components/`, pages pass page-specific props (e.g. alt text)
 - **Page titles**: All uppercase format `MIZHU – DESCRIPTION`
+
+## Testing philosophy
+
+Tests in `tests/data.test.ts` and `tests/contact.test.ts` guard only:
+
+1. **Deploy-critical invariants** the CMS can't enforce — e.g. referenced media files exist on disk.
+2. **Defense-in-depth for CMS-enforced rules** — e.g. string type, number range, Instagram handle format. Catches hand-edited JSON that bypasses the CMS.
+
+Tests must NOT enforce rules Decap cannot validate (cross-field XOR, uniqueness across entries, cosmetic hygiene). The end-user can legitimately produce data that passes the CMS but fails such tests — blocking deploy with no recourse through the CMS. When frontend rendering handles a case gracefully, trust it instead of adding a test.

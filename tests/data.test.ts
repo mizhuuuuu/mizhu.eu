@@ -13,20 +13,9 @@ function loadFolder(folder: string): Project[] {
 		.map((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')) as Project);
 }
 
-const datasets: { name: string; projects: Project[] }[] = [
-	{ name: 'directed-by', projects: loadFolder('directed-by') },
-	{ name: 'vfx', projects: loadFolder('vfx') },
-];
-
-for (const { name, projects } of datasets) {
-	describe(name, () => {
-		test('has no duplicate titles', () => {
-			const titles = projects.map((p) => p.title);
-			const unique = new Set(titles);
-			assert.equal(unique.size, titles.length, `Duplicate titles found: ${titles.filter((t, i) => titles.indexOf(t) !== i).join(', ')}`);
-		});
-
-		for (const project of projects) {
+for (const folder of ['directed-by', 'vfx'] as const) {
+	describe(folder, () => {
+		for (const project of loadFolder(folder)) {
 			describe(project.title, () => {
 				test('has required string fields', () => {
 					assert.equal(typeof project.title, 'string');
@@ -47,7 +36,7 @@ for (const { name, projects } of datasets) {
 
 				test('year is a number', () => {
 					assert.equal(typeof project.year, 'number');
-					assert.ok(project.year > 1900 && project.year <= new Date().getFullYear() + 1);
+					assert.ok(project.year >= 2020 && project.year <= 2050);
 				});
 
 				test('order is an integer', () => {
@@ -55,39 +44,25 @@ for (const { name, projects } of datasets) {
 					assert.ok(Number.isInteger(project.order));
 				});
 
-				test('videoUrl is a string or null', () => {
-					assert.ok(
-						project.videoUrl === null || typeof project.videoUrl === 'string',
-						`videoUrl must be a string or null, got: ${typeof project.videoUrl}`,
-					);
+				test('videoUrl is absent, empty, or https URL', () => {
+					if (!project.videoUrl) return;
+					assert.equal(typeof project.videoUrl, 'string');
+					assert.ok(project.videoUrl.startsWith('https://'), `videoUrl must start with https://, got: ${project.videoUrl}`);
 				});
 
 				test('credits is an array of valid entries', () => {
 					assert.ok(Array.isArray(project.credits));
+					assert.ok(project.credits.length >= 1 && project.credits.length <= 100, `credits count out of range: ${project.credits.length}`);
 					for (const credit of project.credits) {
 						assert.equal(typeof credit.role, 'string', 'credit.role must be a string');
 						assert.ok(credit.role.length > 0, 'credit.role must not be empty');
 						assert.ok(Array.isArray(credit.names), 'credit.names must be an array');
-						assert.ok(credit.names.length > 0, 'credit.names must not be empty');
+						assert.ok(credit.names.length >= 1 && credit.names.length <= 100, `names count out of range: ${credit.names.length}`);
 
-						const seen = new Set<string>();
 						for (const nameEntry of credit.names) {
-							const hasName = nameEntry.name !== undefined;
-							const hasHandle = nameEntry.instagram_handle !== undefined;
-							assert.ok(
-								hasName !== hasHandle,
-								`entry must have exactly one of "name" or "instagram_handle": ${JSON.stringify(nameEntry)}`,
-							);
-							if (hasHandle) {
+							if (typeof nameEntry.instagram_handle === 'string' && nameEntry.instagram_handle.length > 0) {
 								assertInstagramHandle(nameEntry.instagram_handle);
-							} else {
-								assert.equal(typeof nameEntry.name, 'string');
-								assert.ok(nameEntry.name!.length > 0);
 							}
-
-							const key = hasHandle ? `@${nameEntry.instagram_handle}` : nameEntry.name!;
-							assert.ok(!seen.has(key), `duplicate credit entry in "${credit.role}": ${key}`);
-							seen.add(key);
 						}
 					}
 				});
