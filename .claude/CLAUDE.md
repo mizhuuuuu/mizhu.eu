@@ -15,7 +15,7 @@ The Worker deliberately requests `scope=public_repo` (the narrower scope) becaus
 
 ## Tech Stack
 
-- **Framework**: Astro 5 (static output, no SSR)
+- **Framework**: Astro 7 (static output, no SSR)
 - **Language**: TypeScript (strict)
 - **Styling**: Vanilla CSS (no Tailwind)
 - **CMS**: JSON files + Decap CMS admin UI

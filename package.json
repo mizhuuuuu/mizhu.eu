@@ -12,7 +12,7 @@
     "cms": "decap-server"
   },
   "dependencies": {
-    "astro": "^6.1.5",
+    "astro": "^7.2.9",
     "decap-cms-app": "^3.15.1"
   },
   "devDependencies": {
