@@ -57,6 +57,7 @@ pnpm wrangler secret put <NAME>  # Set a Worker secret (e.g. GITHUB_CLIENT_SECRE
 - **Site URL**: Defined in `astro.config.mjs` (`site` option), accessible via `Astro.site`
 - **Shared components**: Reusable UI lives in `src/components/`, pages pass page-specific props (e.g. alt text)
 - **Page titles**: All uppercase format `MIZHU – DESCRIPTION`
+- **Pin GitHub Actions by SHA**: every `uses:` must reference a full 40-character commit SHA with the version tag in a trailing comment (`uses: actions/checkout@3d3c42e… # v7.0.1`). Tags are mutable and can be repointed by a compromised maintainer; SHAs cannot. Resolve a new SHA with `gh api repos/<owner>/<repo>/git/ref/tags/<tag> --jq .object.sha` — if that returns an annotated tag object (`.object.type == "tag"`), dereference it with `gh api repos/<owner>/<repo>/git/tags/<sha> --jq .object.sha`
 
 ## Testing philosophy
 
