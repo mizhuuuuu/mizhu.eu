@@ -24,6 +24,8 @@ The Worker deliberately requests `scope=public_repo` (the narrower scope) becaus
 
 ## Commands
 
+Node is pinned in `.node-version`. fnm reads it automatically (`fnm use`), as does `actions/setup-node` in CI. Keep the `@types/node` major aligned with it — `tests/tooling.test.ts` enforces this.
+
 Site (run from repo root):
 
 ```bash
