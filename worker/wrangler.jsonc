@@ -2,7 +2,7 @@
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "mizhu-cms-oauth",
 	"main": "src/index.ts",
-	"compatibility_date": "2026-04-01",
+	"compatibility_date": "2026-09-04",
 	"send_metrics": false,
 	"workers_dev": true,
 	"preview_urls": false,

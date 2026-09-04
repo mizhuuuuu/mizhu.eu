@@ -1,0 +1,15 @@
+# Marks worker/ as its own pnpm workspace root.
+#
+# Without this, pnpm walks up and finds the site's pnpm-workspace.yaml, then
+# treats the repo root as this project's workspace — `pnpm install` here would
+# install the site's dependencies and `pnpm wrangler` would not resolve.
+# The Worker is a separate deploy target with its own lockfile; keep it isolated.
+#
+# workerd's postinstall links the Cloudflare runtime binary, so it must run.
+# esbuild and sharp are blocked — both ship prebuilt binaries via optional deps.
+# sharp arrives via wrangler -> miniflare and is only used by the local runtime's
+# Images binding, which this Worker does not use.
+allowBuilds:
+  workerd: true
+  esbuild: false
+  sharp: false
