@@ -1,0 +1,9 @@
+# pnpm 11 requires an explicit decision for every dependency with an install script
+# (`strictDepBuilds` defaults to true, so an unreviewed script fails `pnpm install`).
+#
+# Both are `false`: CI has always built successfully with these scripts blocked, and each
+# package ships prebuilt binaries via optional dependencies. sharp in particular is never
+# invoked — the site uses plain asset imports (`logo.src`), never <Image />.
+allowBuilds:
+  esbuild: false
+  sharp: false
