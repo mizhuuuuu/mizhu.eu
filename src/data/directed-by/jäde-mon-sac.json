@@ -18,24 +18,7 @@
       "role": "Produced by",
       "names": [
         {
-          "instagram_handle": "lifeishard.bb"
-        }
-      ]
-    },
-    {
-      "role": "Cast",
-      "names": [
-        {
-          "instagram_handle": "lifeishard.bb"
-        },
-        {
-          "instagram_handle": "mikaelaception"
-        },
-        {
-          "instagram_handle": "nana7_7s"
-        },
-        {
-          "instagram_handle": "alone.with.pluto"
+          "instagram_handle": "pitch.production"
         }
       ]
     },
@@ -43,10 +26,7 @@
       "role": "EP",
       "names": [
         {
-          "instagram_handle": "angetmsini"
-        },
-        {
-          "instagram_handle": "itslaetitia.prx"
+          "instagram_handle": "__kotro"
         }
       ]
     },
@@ -54,7 +34,10 @@
       "role": "1st AD",
       "names": [
         {
-          "instagram_handle": "pauzklop"
+          "instagram_handle": "billet.pour.deux"
+        },
+        {
+          "instagram_handle": "nol.ksl"
         }
       ]
     },
@@ -62,7 +45,7 @@
       "role": "2nd AD",
       "names": [
         {
-          "instagram_handle": "simoncgnt_"
+          "instagram_handle": "elvire.l"
         }
       ]
     },
@@ -86,7 +69,7 @@
       "role": "2nd AC",
       "names": [
         {
-          "instagram_handle": "theofabulet"
+          "instagram_handle": "_toniso"
         }
       ]
     },
@@ -94,15 +77,7 @@
       "role": "Camera B",
       "names": [
         {
-          "instagram_handle": "gabriel.bataller"
-        }
-      ]
-    },
-    {
-      "role": "Set Photographer",
-      "names": [
-        {
-          "instagram_handle": "donerjad"
+          "instagram_handle": "timothe_hrf"
         }
       ]
     },
@@ -111,17 +86,25 @@
       "names": [
         {
           "instagram_handle": "hugorotivel"
-        },
-        {
-          "instagram_handle": "dan.andric_dop"
         }
       ]
     },
     {
-      "role": "Circus Lighting Technician",
+      "role": "Electrician",
       "names": [
         {
-          "instagram_handle": "amicheletty"
+          "instagram_handle": "lluis.d.cervantes"
+        }
+      ]
+    },
+    {
+      "role": "Set Designer",
+      "names": [
+        {
+          "instagram_handle": "collard_adele"
+        },
+        {
+          "instagram_handle": "tesslignon"
         }
       ]
     },
@@ -129,32 +112,7 @@
       "role": "Unit Manager",
       "names": [
         {
-          "instagram_handle": "emmadaveau"
-        }
-      ]
-    },
-    {
-      "role": "Unit Manager Assistants",
-      "names": [
-        {
           "instagram_handle": "__kotro"
-        },
-        {
-          "instagram_handle": "arrtis.sbth"
-        },
-        {
-          "instagram_handle": "andreasabathe"
-        },
-        {
-          "instagram_handle": "theodorelardy"
-        }
-      ]
-    },
-    {
-      "role": "Artist Stylist",
-      "names": [
-        {
-          "instagram_handle": "dressuplikeangel"
         }
       ]
     },
@@ -179,14 +137,9 @@
       "names": [
         {
           "instagram_handle": "mizh_u"
-        }
-      ]
-    },
-    {
-      "role": "3D Object",
-      "names": [
+        },
         {
-          "instagram_handle": "titouan_fourreau"
+          "instagram_handle": "rafael.moulinr"
         }
       ]
     },
@@ -194,15 +147,12 @@
       "role": "Graphic Design",
       "names": [
         {
-          "instagram_handle": "colinecayzac"
-        },
-        {
-          "instagram_handle": "lucasgouet"
+          "instagram_handle": "pela.xyz"
         }
       ]
     },
     {
-      "role": "Sound Design",
+      "role": "Outro Sound Design",
       "names": [
         {
           "instagram_handle": "kitchenette.fm"
@@ -213,7 +163,7 @@
       "role": "Color Grading",
       "names": [
         {
-          "instagram_handle": "theodorepejout"
+          "instagram_handle": "edouardyzal"
         }
       ]
     }
